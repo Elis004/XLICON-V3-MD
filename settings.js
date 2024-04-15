@@ -99,7 +99,8 @@ global.adminevent = process.env.ANNOUNCE_MSG  || true //show promote/demote mess
 //________________________________________________________________________________________________________
 global.groupevent = process.env.GROUP_ANNOUNCE_MSG || true //show update messages in group chat
 //________________________________________________________________________________________________________
-
+global.groupevent = process.env.GROUP_ANNOUNCE_MSG || true //show update messages in group chat
+//________________________________________________________________________________________________________
 
 //msg
 global.mess = {
